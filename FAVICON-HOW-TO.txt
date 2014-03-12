@@ -1,0 +1,16 @@
+
+How to add a favicon!
+
+Firstly a favicon is that small image you see on the tab or address bar.
+
+Firstly make you favicon, I recommend putting your logo through this: http://www.favicon.co.uk/
+Choose your image/logo and select 64x64 and generate it. You will then be able to download the favicon.
+
+Make sure the name of it is 'favicon.ico'
+
+Next add the following code to every page on your website, you need to put it somewhere within the head tags <head></head>, if you don't it won't work!
+
+Heres the code:
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
